@@ -1,4 +1,4 @@
-# í¾“ STAX - Nigerian EdTech Platform Backend
+# ğŸ“ STAX - Nigerian EdTech Platform Backend
 
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
 ![Django](https://img.shields.io/badge/django-5.0+-green.svg)
@@ -8,13 +8,13 @@
 
 > A comprehensive backend API for an educational technology platform that provides online courses and past examination questions for Nigerian university students.
 
-**Live API:** [https://api.stax.ng](https://api.stax.ng) *(Replace with your deployed URL)*  
+**Live API:** [https://api.stax.ng](https://api.stax.ng) *  
 **Frontend:** [https://stax.ng](https://stax.ng)  
-**API Documentation:** [https://api.stax.ng/docs](https://api.stax.ng/docs) *(Add when ready)*
+**API Documentation:** [https://api.stax.ng/docs](https://api.stax.ng/docs) 
 
 ---
 
-## í³‹ Table of Contents
+## ğŸ“‹ Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -33,7 +33,7 @@
 
 ---
 
-## í¼Ÿ Overview
+## ğŸŒŸ Overview
 
 **Stax** is a Nigerian EdTech platform designed to solve educational resource accessibility challenges faced by university students. The platform combines two core functionalities:
 
@@ -46,14 +46,14 @@ This repository contains the **backend API** built with Django REST Framework, p
 
 ## âœ¨ Features
 
-### í´ User Management
+### ğŸ” User Management
 - JWT-based authentication (access & refresh tokens)
 - User registration with email validation
 - Role-based access control (Student, Contributor, Admin)
 - Profile management with image uploads
 - Password change and reset functionality
 
-### í³š Course System
+### ğŸ“š Course System
 - Browse courses by category (Computer Science, Law, Medicine, etc.)
 - Course enrollment and progress tracking
 - Video lessons with ordered sequencing
@@ -61,20 +61,20 @@ This repository contains the **backend API** built with Django REST Framework, p
 - Certificate generation upon completion
 - Search and filter functionality
 
-### í³ Past Questions Repository
+### ğŸ“ Past Questions Repository
 - Upload past examination questions (PDF, images)
 - Search by university, course code, year, semester
 - Admin approval workflow for quality control
 - Download tracking and analytics
 - View counter for popular content
 
-### í¾® Gamification
+### ğŸ® Gamification
 - Points-based contributor system
 - Earn points for uploading approved questions
 - Leaderboard showing top contributors
 - Future: Redeem points for premium access
 
-### í»¡ï¸ Admin Features
+### ğŸ›¡ï¸ Admin Features
 - Django admin panel for content management
 - Approve/reject uploaded questions
 - Award points to contributors
@@ -83,7 +83,7 @@ This repository contains the **backend API** built with Django REST Framework, p
 
 ---
 
-## í» ï¸ Tech Stack
+## ğŸ› ï¸ Tech Stack
 
 ### Backend Framework
 - **Django 5.0+** - High-level Python web framework
@@ -108,7 +108,7 @@ This repository contains the **backend API** built with Django REST Framework, p
 
 ---
 
-## í³ Project Structure
+## ğŸ“ Project Structure
 
 ```
 stax-backend/
@@ -157,7 +157,7 @@ stax-backend/
 
 ---
 
-## íº€ Installation
+## ğŸš€ Installation
 
 ### Prerequisites
 
@@ -259,7 +259,7 @@ print(get_random_secret_key())
 
 ---
 
-## í²¾ Database Setup
+## ğŸ’¾ Database Setup
 
 ### Option 1: SQLite (Development - Default)
 
@@ -299,7 +299,7 @@ Uncomment PostgreSQL database settings in `stax_api/settings.py` and comment out
 
 ---
 
-## í¿ƒ Running the Application
+## ğŸƒ Running the Application
 
 ### 1. Apply Migrations
 
@@ -338,7 +338,7 @@ Login with your superuser credentials.
 
 ---
 
-## í³¡ API Endpoints
+## ğŸ“¡ API Endpoints
 
 ### Authentication
 
@@ -397,7 +397,7 @@ Login with your superuser credentials.
 
 ---
 
-## í·ª Testing
+## ğŸ§ª Testing
 
 ### Run All Tests
 
@@ -430,7 +430,7 @@ coverage html  # Generate HTML report
 
 ---
 
-## íº¢ Deployment
+## ğŸš¢ Deployment
 
 ### Deploy to Render
 
@@ -489,7 +489,7 @@ coverage html  # Generate HTML report
 
 ---
 
-## í³Š Database Schema
+## ğŸ“Š Database Schema
 
 See [ERD Diagram](docs/erd-diagram.png) for complete database structure.
 
@@ -507,7 +507,7 @@ See [ERD Diagram](docs/erd-diagram.png) for complete database structure.
 
 ---
 
-## í´’ Security
+## ğŸ”’ Security
 
 - Passwords hashed with Django's default hasher (PBKDF2)
 - JWT tokens for stateless authentication
@@ -520,7 +520,7 @@ See [ERD Diagram](docs/erd-diagram.png) for complete database structure.
 
 ---
 
-## í´ Contributing
+## ğŸ¤ Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -539,24 +539,24 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## í³ License
+## ğŸ“ License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## í±¨â€í²» Author
+## ğŸ‘¨â€ğŸ’» Author
 
 **[Your Name]**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- GitHub: [AdeolaAdeagbo](https://github.com/yourusername)
+- LinkedIn: [Boluwatife Adeagbo](https://linkedin.com/in/yourprofile)
+- Email: adeagbozainab20@gmail.com
+- Portfolio: [BoluwatifeAdeagbo.com](https://yourportfolio.com)
 
 ---
 
-## í¹ Acknowledgments
+## ğŸ™ Acknowledgments
 
 - ALX Africa Software Engineering Program
 - Django Documentation
@@ -566,13 +566,13 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-## í³ Support
+## ğŸ“ Support
 
-For support, email your.email@example.com or create an issue in the GitHub repository.
+For support, email adeagbozainab20@gmail.com or create an issue in the GitHub repository.
 
 ---
 
-## í·ºï¸ Roadmap
+## ğŸ—ºï¸ Roadmap
 
 ### Phase 1 (Completed) âœ…
 - User authentication system
@@ -580,13 +580,13 @@ For support, email your.email@example.com or create an issue in the GitHub repos
 - Past questions repository
 - Points system
 
-### Phase 2 (In Progress) íº§
+### Phase 2 (In Progress) ğŸš§
 - Frontend integration
 - Email notifications
 - Certificate PDF generation
 - Search optimization
 
-### Phase 3 (Planned) í³‹
+### Phase 3 (Planned) ğŸ“‹
 - Payment integration (Paystack)
 - Live classes
 - Discussion forums
@@ -595,7 +595,7 @@ For support, email your.email@example.com or create an issue in the GitHub repos
 
 ---
 
-## í³ˆ Project Statistics
+## ğŸ“ˆ Project Statistics
 
 ![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-10K+-blue)
 ![API Endpoints](https://img.shields.io/badge/API%20Endpoints-50+-green)
@@ -605,7 +605,7 @@ For support, email your.email@example.com or create an issue in the GitHub repos
 
 ---
 
-## í´— Links
+## ğŸ”— Links
 
 - **Frontend Repository:** [github.com/username/stax-frontend](https://github.com/username/stax-frontend)
 - **API Documentation:** [api.stax.ng/docs](https://api.stax.ng/docs)
@@ -614,7 +614,4 @@ For support, email your.email@example.com or create an issue in the GitHub repos
 
 ---
 
-*Last Updated: December 2024*
-
-^X
-
+*Last Updated: November 2025*
