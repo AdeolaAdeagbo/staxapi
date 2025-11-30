@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Third party apps
+    'drf_yasg',
     'rest_framework',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
@@ -71,16 +72,17 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-# TODO: Switch to PostgreSQL later:
-# 'default': {
-#     'ENGINE': 'django.db.backends.postgresql',
-#     'NAME': 'stax_db',
-#     'USER': 'your_user',
-#     'PASSWORD': 'your_password',
-#     'HOST': 'localhost',
-#     'PORT': '5432',
-# }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'stax_db',        # the database you created
+        'USER': 'stax_user',      # the user you created
+        'PASSWORD': 'Gizainternational',  # the password you set
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
 # Custom User Model
 AUTH_USER_MODEL = 'accounts.User'
 

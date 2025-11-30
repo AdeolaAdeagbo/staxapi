@@ -10,6 +10,23 @@ courses = [
 
 @csrf_exempt
 def course_list(request):
+    """
+    GET /api/courses/
+    Returns a list of all courses.
+
+    POST /api/courses/
+    Creates a new course.
+    Request body JSON format:
+        {
+            "title": "Course Title",
+            "description": "Course Description"
+        }
+    Response JSON:
+        {
+            "message": "Course created",
+            "data": {course object}
+        }
+    """
     if request.method == 'GET':
         return JsonResponse(courses, safe=False)
     elif request.method == 'POST':
@@ -20,6 +37,21 @@ def course_list(request):
 
 @csrf_exempt
 def course_detail(request, id):
+    """
+    GET /api/courses/<id>/
+    Retrieves details of a single course by ID.
+
+    PUT /api/courses/<id>/
+    Updates the course with the given ID.
+    Request body JSON can include any of the course fields:
+        {
+            "title": "New Title",
+            "description": "New Description"
+        }
+
+    DELETE /api/courses/<id>/
+    Deletes the course with the given ID.
+    """
     course = next((c for c in courses if c["id"] == id), None)
     if not course:
         return JsonResponse({"error": "Course not found"}, status=404)
